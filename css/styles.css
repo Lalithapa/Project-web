@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Merriweather", serif;
+}
+.container1 {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  margin: 0 0 0 10px;
+  float: right;
+}
+.logoImg {
+  position: absolute;
+  top: 20px;
+  left: 35px;
+}
+.homeNavbar {
+  width: 100%;
+  height: 88px;
+  background: #fff;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%),
+    0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+li {
+  float: left;
+}
+a.home {
+  background-color: #fdc236;
+}
+li a {
+  color: #545454;
+  display: block;
+  text-align: center;
+  padding: 35px 25px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+li a:hover {
+  background-color: #fdc236;
+}
+.constructionImg {
+  background-image: url(/images/banner1.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 620px;
+  background-position: center;
+}
+.heading1 {
+  font-size: 60px;
+}
+.para1 {
+  font-size: 18px;
+}
+.message {
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+  width: auto;
+  position: absolute;
+  top: 250px;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+.contactusbtn {
+  font-family: "Oswald", sans-serif;
+  color: #000000;
+  font-size: 19px;
+  background: #fdc236;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+}
+
+.btncontainer {
+  font-family: "Oswald", sans-serif;
+  background-color: #fdc236;
+  width: 100%;
+  height: 100px;
+}
+.btnquote {
+  font-family: "Oswald", sans-serif;
+  color: #000000;
+  font-size: 19px;
+  background: #fff;
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+  border: none;
+  float: right;
+  margin-right: 120px;
+  margin-top: 25px;
+}
+.btnquote:hover {
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+  font-size: 19px;
+  background: #000000;
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+  border: none;
+  float: right;
+  margin-right: 120px;
+}
+.btncontainerh2 {
+  display: inline-block;
+  margin: 30px;
+  color: #fff;
+  font-size: 24px;
+  width: 50%;
+}
+.bigImage {
+  margin: 75px 50px 10px 75px;
+}
+.companyInfo {
+  color: #878787;
+  width: 55%;
+}
+
+.bigMan {
+  box-shadow: 9px 9px 0px 0px rgb(253 194 54);
+  float: right;
+  width: 422px;
+  height: 513px;
+}
+.ulList {
+  font-size: 12px;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  color: #878787;
+}
+.ulList h4 .fa-check{
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  background: #fdc236;
+  border-radius: 20px;
+  color: #fff;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom:10px ;
+}
+}
